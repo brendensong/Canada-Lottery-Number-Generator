@@ -20,4 +20,4 @@
 - Used String Formatting to decorate the Input and Results sections to increase readability (and beauty a little).
 - Added one more type of lottery. When selecting 'Daily Grand', generates five numbers between 1 and 49 and one grand number between 1 and 7.
 - Added a lottery type tuple. Utilizes the objects in Tuple to generate the lottery numbers and shows the type of lottery selected in the Results section.
-- Add a positive phrase for good luck.
+- Added a positive phrase for good luck.
