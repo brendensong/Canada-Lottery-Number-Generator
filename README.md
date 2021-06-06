@@ -1,6 +1,6 @@
 # Canada Lottery Number Generator - Python
 
-> ### [View all in one page(Jupyter Notebook)](https://github.com/brendensong/Canada-Lottery-Number-Generator/blob/main/Canada%20Lottery%20Number%20Generator.ipynb)
+> ### [View all in one page (Jupyter Notebook)](https://github.com/brendensong/Canada-Lottery-Number-Generator/blob/main/Canada%20Lottery%20Number%20Generator.ipynb)
 ---
 > ### [Ver.1](https://github.com/brendensong/Canada-Lottery-Number-Generator/blob/main/python_code_files/lottery_numbers.py)
 - Very, very simple.
