@@ -8,9 +8,9 @@ print('-' * 50)
 
 answer = input()
 
-type = (('Lotto Max', 7),
-        ('Lotto 6/49', 6),
-        ('Daily Grand', 5))
+type = (('Lotto Max', 7, 50),
+        ('Lotto 6/49', 6, 49),
+        ('Daily Grand', 5, 49))
 
 if answer != '1' and answer != '2' and answer != '3':
     sys.exit('<<< You chose the wrong type of lottery. Please try again. >>>')
@@ -19,10 +19,10 @@ numbers = []
 answer = int(answer)
 
 for i in range(0, type[answer - 1][1]):
-    number = random.randint(1, 49)
+    number = random.randint(1, type[answer - 1][2])
     
     while number in numbers:
-        number = random.randint(1, 49)
+        number = random.randint(1, type[answer - 1][2])
 
     numbers.append(number)
 
